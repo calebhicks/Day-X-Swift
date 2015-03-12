@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68ACC0C01AB1F2B4000B14F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ACC0BF1AB1F2B4000B14F2 /* AppDelegate.swift */; };
+		68ACC0C21AB1F2B4000B14F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ACC0C11AB1F2B4000B14F2 /* ViewController.swift */; };
+		68ACC0C51AB1F2B4000B14F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68ACC0C31AB1F2B4000B14F2 /* Main.storyboard */; };
+		68ACC0C71AB1F2B4000B14F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68ACC0C61AB1F2B4000B14F2 /* Images.xcassets */; };
+		68ACC0CA1AB1F2B4000B14F2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68ACC0C81AB1F2B4000B14F2 /* LaunchScreen.xib */; };
+		68ACC0D61AB1F2B4000B14F2 /* DayX_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ACC0D51AB1F2B4000B14F2 /* DayX_SwiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68ACC0D01AB1F2B4000B14F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68ACC0B21AB1F2B4000B14F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68ACC0B91AB1F2B4000B14F2;
+			remoteInfo = "DayX-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68ACC0BA1AB1F2B4000B14F2 /* DayX-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DayX-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68ACC0BE1AB1F2B4000B14F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68ACC0BF1AB1F2B4000B14F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68ACC0C11AB1F2B4000B14F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68ACC0C41AB1F2B4000B14F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68ACC0C61AB1F2B4000B14F2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		68ACC0C91AB1F2B4000B14F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		68ACC0CF1AB1F2B4000B14F2 /* DayX-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DayX-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68ACC0D41AB1F2B4000B14F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68ACC0D51AB1F2B4000B14F2 /* DayX_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayX_SwiftTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68ACC0B71AB1F2B4000B14F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68ACC0CC1AB1F2B4000B14F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68ACC0B11AB1F2B4000B14F2 = {
+			isa = PBXGroup;
+			children = (
+				68ACC0BC1AB1F2B4000B14F2 /* DayX-Swift */,
+				68ACC0D21AB1F2B4000B14F2 /* DayX-SwiftTests */,
+				68ACC0BB1AB1F2B4000B14F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68ACC0BB1AB1F2B4000B14F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68ACC0BA1AB1F2B4000B14F2 /* DayX-Swift.app */,
+				68ACC0CF1AB1F2B4000B14F2 /* DayX-SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68ACC0BC1AB1F2B4000B14F2 /* DayX-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				68ACC0BF1AB1F2B4000B14F2 /* AppDelegate.swift */,
+				68ACC0C11AB1F2B4000B14F2 /* ViewController.swift */,
+				68ACC0C31AB1F2B4000B14F2 /* Main.storyboard */,
+				68ACC0C61AB1F2B4000B14F2 /* Images.xcassets */,
+				68ACC0C81AB1F2B4000B14F2 /* LaunchScreen.xib */,
+				68ACC0BD1AB1F2B4000B14F2 /* Supporting Files */,
+			);
+			path = "DayX-Swift";
+			sourceTree = "<group>";
+		};
+		68ACC0BD1AB1F2B4000B14F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68ACC0BE1AB1F2B4000B14F2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68ACC0D21AB1F2B4000B14F2 /* DayX-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				68ACC0D51AB1F2B4000B14F2 /* DayX_SwiftTests.swift */,
+				68ACC0D31AB1F2B4000B14F2 /* Supporting Files */,
+			);
+			path = "DayX-SwiftTests";
+			sourceTree = "<group>";
+		};
+		68ACC0D31AB1F2B4000B14F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68ACC0D41AB1F2B4000B14F2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68ACC0B91AB1F2B4000B14F2 /* DayX-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68ACC0D91AB1F2B4000B14F2 /* Build configuration list for PBXNativeTarget "DayX-Swift" */;
+			buildPhases = (
+				68ACC0B61AB1F2B4000B14F2 /* Sources */,
+				68ACC0B71AB1F2B4000B14F2 /* Frameworks */,
+				68ACC0B81AB1F2B4000B14F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DayX-Swift";
+			productName = "DayX-Swift";
+			productReference = 68ACC0BA1AB1F2B4000B14F2 /* DayX-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68ACC0CE1AB1F2B4000B14F2 /* DayX-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68ACC0DC1AB1F2B4000B14F2 /* Build configuration list for PBXNativeTarget "DayX-SwiftTests" */;
+			buildPhases = (
+				68ACC0CB1AB1F2B4000B14F2 /* Sources */,
+				68ACC0CC1AB1F2B4000B14F2 /* Frameworks */,
+				68ACC0CD1AB1F2B4000B14F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68ACC0D11AB1F2B4000B14F2 /* PBXTargetDependency */,
+			);
+			name = "DayX-SwiftTests";
+			productName = "DayX-SwiftTests";
+			productReference = 68ACC0CF1AB1F2B4000B14F2 /* DayX-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68ACC0B21AB1F2B4000B14F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = DevMountain;
+				TargetAttributes = {
+					68ACC0B91AB1F2B4000B14F2 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					68ACC0CE1AB1F2B4000B14F2 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 68ACC0B91AB1F2B4000B14F2;
+					};
+				};
+			};
+			buildConfigurationList = 68ACC0B51AB1F2B4000B14F2 /* Build configuration list for PBXProject "DayX-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68ACC0B11AB1F2B4000B14F2;
+			productRefGroup = 68ACC0BB1AB1F2B4000B14F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68ACC0B91AB1F2B4000B14F2 /* DayX-Swift */,
+				68ACC0CE1AB1F2B4000B14F2 /* DayX-SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68ACC0B81AB1F2B4000B14F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ACC0C51AB1F2B4000B14F2 /* Main.storyboard in Resources */,
+				68ACC0CA1AB1F2B4000B14F2 /* LaunchScreen.xib in Resources */,
+				68ACC0C71AB1F2B4000B14F2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68ACC0CD1AB1F2B4000B14F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68ACC0B61AB1F2B4000B14F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ACC0C21AB1F2B4000B14F2 /* ViewController.swift in Sources */,
+				68ACC0C01AB1F2B4000B14F2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68ACC0CB1AB1F2B4000B14F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ACC0D61AB1F2B4000B14F2 /* DayX_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68ACC0D11AB1F2B4000B14F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68ACC0B91AB1F2B4000B14F2 /* DayX-Swift */;
+			targetProxy = 68ACC0D01AB1F2B4000B14F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68ACC0C31AB1F2B4000B14F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68ACC0C41AB1F2B4000B14F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68ACC0C81AB1F2B4000B14F2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68ACC0C91AB1F2B4000B14F2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68ACC0D71AB1F2B4000B14F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68ACC0D81AB1F2B4000B14F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68ACC0DA1AB1F2B4000B14F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DayX-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68ACC0DB1AB1F2B4000B14F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DayX-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		68ACC0DD1AB1F2B4000B14F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DayX-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayX-Swift.app/DayX-Swift";
+			};
+			name = Debug;
+		};
+		68ACC0DE1AB1F2B4000B14F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DayX-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayX-Swift.app/DayX-Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68ACC0B51AB1F2B4000B14F2 /* Build configuration list for PBXProject "DayX-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68ACC0D71AB1F2B4000B14F2 /* Debug */,
+				68ACC0D81AB1F2B4000B14F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68ACC0D91AB1F2B4000B14F2 /* Build configuration list for PBXNativeTarget "DayX-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68ACC0DA1AB1F2B4000B14F2 /* Debug */,
+				68ACC0DB1AB1F2B4000B14F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68ACC0DC1AB1F2B4000B14F2 /* Build configuration list for PBXNativeTarget "DayX-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68ACC0DD1AB1F2B4000B14F2 /* Debug */,
+				68ACC0DE1AB1F2B4000B14F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68ACC0B21AB1F2B4000B14F2 /* Project object */;
+}
