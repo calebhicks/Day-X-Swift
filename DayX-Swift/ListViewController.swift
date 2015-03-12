@@ -44,6 +44,13 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
     }
     
+    func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+        if editingStyle == UITableViewCellEditingStyle.Delete {
+            EntryController.sharedInstance.removeEntry(EntryController.sharedInstance.entries[indexPath.row])
+            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Automatic)
+        }
+    }
+    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
         if segue.identifier == "viewEntry" {

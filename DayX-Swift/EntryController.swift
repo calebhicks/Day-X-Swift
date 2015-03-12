@@ -41,21 +41,18 @@ class EntryController: NSObject {
         entry.text = text
         entry.timestamp = date
         
-        Stack.sharedInstance.managedObjectContext.save(nil)
+        self.save()
     }
     
     // methods
     
     func removeEntry(entry:Entry) {
         entry.managedObjectContext!.deleteObject(entry)
+        self.save()
     }
     
     func save () {
         Stack.sharedInstance.managedObjectContext.save(nil)
     }
-    
-    // load from defaults
-    
-    // save to defaults
 
 }
