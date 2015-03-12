@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68071CBE1AB22BCF00001520 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68071CBC1AB22BCF00001520 /* Model.xcdatamodeld */; };
+		68071CC81AB2358500001520 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68071CC71AB2358500001520 /* Entry.swift */; };
+		68A46DFD1AB1F6E000D91040 /* EntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A46DFC1AB1F6E000D91040 /* EntryController.swift */; };
+		68A46DFF1AB21F3800D91040 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A46DFE1AB21F3800D91040 /* Stack.swift */; };
+		68A46E011AB220F600D91040 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A46E001AB220F600D91040 /* CoreData.framework */; };
 		68ACC0C01AB1F2B4000B14F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ACC0BF1AB1F2B4000B14F2 /* AppDelegate.swift */; };
-		68ACC0C21AB1F2B4000B14F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ACC0C11AB1F2B4000B14F2 /* ViewController.swift */; };
+		68ACC0C21AB1F2B4000B14F2 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ACC0C11AB1F2B4000B14F2 /* ListViewController.swift */; };
 		68ACC0C51AB1F2B4000B14F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68ACC0C31AB1F2B4000B14F2 /* Main.storyboard */; };
 		68ACC0C71AB1F2B4000B14F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68ACC0C61AB1F2B4000B14F2 /* Images.xcassets */; };
 		68ACC0CA1AB1F2B4000B14F2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68ACC0C81AB1F2B4000B14F2 /* LaunchScreen.xib */; };
 		68ACC0D61AB1F2B4000B14F2 /* DayX_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ACC0D51AB1F2B4000B14F2 /* DayX_SwiftTests.swift */; };
+		68ACC0E01AB1F466000B14F2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ACC0DF1AB1F466000B14F2 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +32,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		68071CBD1AB22BCF00001520 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		68071CC71AB2358500001520 /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Entry.swift; path = ../Entry.swift; sourceTree = "<group>"; };
+		68A46DFC1AB1F6E000D91040 /* EntryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryController.swift; sourceTree = "<group>"; };
+		68A46DFE1AB21F3800D91040 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		68A46E001AB220F600D91040 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		68ACC0BA1AB1F2B4000B14F2 /* DayX-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DayX-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68ACC0BE1AB1F2B4000B14F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68ACC0BF1AB1F2B4000B14F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		68ACC0C11AB1F2B4000B14F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68ACC0C11AB1F2B4000B14F2 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		68ACC0C41AB1F2B4000B14F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		68ACC0C61AB1F2B4000B14F2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		68ACC0C91AB1F2B4000B14F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		68ACC0CF1AB1F2B4000B14F2 /* DayX-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DayX-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68ACC0D41AB1F2B4000B14F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68ACC0D51AB1F2B4000B14F2 /* DayX_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayX_SwiftTests.swift; sourceTree = "<group>"; };
+		68ACC0DF1AB1F466000B14F2 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68A46E011AB220F600D91040 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +72,7 @@
 		68ACC0B11AB1F2B4000B14F2 = {
 			isa = PBXGroup;
 			children = (
+				68A46E001AB220F600D91040 /* CoreData.framework */,
 				68ACC0BC1AB1F2B4000B14F2 /* DayX-Swift */,
 				68ACC0D21AB1F2B4000B14F2 /* DayX-SwiftTests */,
 				68ACC0BB1AB1F2B4000B14F2 /* Products */,
@@ -77,9 +91,14 @@
 		68ACC0BC1AB1F2B4000B14F2 /* DayX-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				68ACC0BF1AB1F2B4000B14F2 /* AppDelegate.swift */,
-				68ACC0C11AB1F2B4000B14F2 /* ViewController.swift */,
 				68ACC0C31AB1F2B4000B14F2 /* Main.storyboard */,
+				68ACC0BF1AB1F2B4000B14F2 /* AppDelegate.swift */,
+				68ACC0C11AB1F2B4000B14F2 /* ListViewController.swift */,
+				68ACC0DF1AB1F466000B14F2 /* DetailViewController.swift */,
+				68A46DFC1AB1F6E000D91040 /* EntryController.swift */,
+				68071CC71AB2358500001520 /* Entry.swift */,
+				68A46DFE1AB21F3800D91040 /* Stack.swift */,
+				68071CBC1AB22BCF00001520 /* Model.xcdatamodeld */,
 				68ACC0C61AB1F2B4000B14F2 /* Images.xcassets */,
 				68ACC0C81AB1F2B4000B14F2 /* LaunchScreen.xib */,
 				68ACC0BD1AB1F2B4000B14F2 /* Supporting Files */,
@@ -212,7 +231,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68ACC0C21AB1F2B4000B14F2 /* ViewController.swift in Sources */,
+				68071CC81AB2358500001520 /* Entry.swift in Sources */,
+				68ACC0E01AB1F466000B14F2 /* DetailViewController.swift in Sources */,
+				68A46DFD1AB1F6E000D91040 /* EntryController.swift in Sources */,
+				68071CBE1AB22BCF00001520 /* Model.xcdatamodeld in Sources */,
+				68ACC0C21AB1F2B4000B14F2 /* ListViewController.swift in Sources */,
+				68A46DFF1AB21F3800D91040 /* Stack.swift in Sources */,
 				68ACC0C01AB1F2B4000B14F2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +429,7 @@
 				68ACC0DB1AB1F2B4000B14F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68ACC0DC1AB1F2B4000B14F2 /* Build configuration list for PBXNativeTarget "DayX-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -413,8 +438,22 @@
 				68ACC0DE1AB1F2B4000B14F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		68071CBC1AB22BCF00001520 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				68071CBD1AB22BCF00001520 /* Model.xcdatamodel */,
+			);
+			currentVersion = 68071CBD1AB22BCF00001520 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 68ACC0B21AB1F2B4000B14F2 /* Project object */;
 }
